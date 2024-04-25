@@ -1,0 +1,68 @@
+body, html {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
+#container {
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameField {
+    
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#gameField > div {
+    border:1px solid black;
+    
+}
+
+.row{
+    
+}
+
+
+
+
+
+
+.cell {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+
+.cell:hover {
+    background-color: darkorchid;
+}
+
+.cell.highlight
+ {
+    outline: 2px solid dodgerblue;
+
+}
+
+.alive {
+    background-color: purple;
+}
+
+
+.cursorDot,
+.cursorDot:hover {
+
+    background-color: dodgerblue;
+}

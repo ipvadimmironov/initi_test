@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание в ИНИТИ </title>
+
+    <link rel="stylesheet" href="./style.css"/>
+
+
+</head>
+<body>
+
+    <div id="container" style="display: flex;flex-direction: row; width:100%;height:100%; ">
+
+        <div id="gameField" style="overflow: auto;">
+
+        </div>
+        <div style="padding:10px;width:300px;text-align:center;">
+            <div id="actions" style="padding:10px; display: flex;flex-direction: column;gap:10px;">
+
+                <label for="size">Размер сетки</label>
+                <input type="text" name="size" id="size" value="50"/>
+                <button id="random">Заполнить рандомно</button>
+                <button id="clear">Очистить поле</button><br>
+                <button id="evolute">Один шаг</button><br>
+                <button id="run">Запустить</button>
+
+            </div>
+
+            <div >
+
+               <span>Время выполнения (мс):</span> <span id="results"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    
+</body>
+
+
+<script src="script.js"></script> 
+
+</html>
